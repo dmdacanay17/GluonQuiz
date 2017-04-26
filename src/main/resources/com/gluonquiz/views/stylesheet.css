@@ -1,0 +1,114 @@
+login { 
+    display: block;
+}
+
+.login {
+     -fx-background-image: url("/images/cover.jpg") no-repeat absolute;
+    
+}
+.createAcc{
+    -fx-background-color: #9cb9d1;
+}
+textflow{
+    -fx-font-weight: bold;
+}
+.questionBG{
+    -fx-background-color: #d2dfea;
+}
+.hyperlink{
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+}
+.hyperlink:hover, pressedOn{
+    -fx-text-fill: RED;
+}
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#labelCreate {
+        -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+/*#actiontarget {
+  -fx-fill: FIREBRICK;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}*/
+.scroll-bar:vertical {
+ -fx-track-background: transparent;
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-text-align: center;
+    -fx-background-color: #094d74;
+     -fx-background-radius: 30;
+    -fx-background-insets: 0,1,1;
+   
+}
+
+.button:hover,pressedOn {
+    -fx-background-color: #eef0f6;
+    -fx-text-fill: black;
+}
+
+.textflow{
+    -fx-font-size: 500;
+}
+.text-field {
+    -fx-font-family: Arial, Sans-Serif;
+    -fx-font-size: 13px;
+    -fx-border-color: black;
+    -fx-display: block;
+    -fx-width: 300px;
+} 
+#login {
+    -fx-background-color: rgba(255,255,255,0.5);
+}
+
+.combo-box .arrow, .comboBOX .arrow-button{
+    -fx-background-color: transparent;
+}
+.combo-box {
+    -fx-background-color: #eef0f6;
+/*    #b2d2e3*/
+}
+.combo-box .text-field {
+    -fx-prompt-text-fill: white;
+}
+.combo-box .text-field:focused {
+    -fx-prompt-text-fill: transparent ;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #b2d2e3;
+    -fx-border: solid 2px;
+}
+.titled-pane:focused > .title 
+{
+    -fx-background-color: black;
+-fx-text-fill: yellow;
+}
+.titled-pane:focused 
+{
+    
+-fx-text-fill: yellow;
+}
+.titled-pane > *.content 
+{
+-fx-background-color: #e5f0f5;
+-fx-background-insets: 0, 0 1 1 1;
+-fx-padding: 0.167em;
+ }
+ .titled-pane:focused > .title > .arrow-button .arrow 
+{
+-fx-background-color: white;
+}
